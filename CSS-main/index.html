@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> </title>
+	<style type="text/css">
+		h2{
+			font-size: 25px;
+			color: red;
+		}
+		.internal_css{
+			font-size: 12px;
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<h2>Satır İçi CSS (inline)</h2>
+	<p style="color : black;">
+		CSS kodu uygulanacak bir paragraf - inline CSS
+		<br>buradaki html komtularının css kodu diretk p tagının içinden geliyor
+	</p>
+	<h2>Sayfa İçi CSS (internal)</h2>
+	<p class="internal_css">
+		CSS kodu uygulanacak bir paragraf - internal CSS
+		<br>buradaki html komutlarının css kodu head tagındaki style dan geliyor.
+	</p>
+	<h2>Sayfa İçi CSS (external)</h2>
+	<p class="external_css">
+		CSS kodu uygulanacak bir paragraf - external CSS
+		<br>bu sayfadaki html komutlarının css kodu style.css dosyasından geliyor.
+	</p>
+</body>
+</html>

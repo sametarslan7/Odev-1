@@ -1,0 +1,194 @@
+/* CSS Dosyası */
+
+/* Boşlukları Sıfırlar */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#sayfa{
+	width: 1800px;
+	min-height: 1000px;
+	border-style: solid;
+	border-width: 1px;
+	margin: auto;
+}
+
+/* Banner */
+
+#banner{
+	width: 1600px;
+	min-height: 100px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: seagreen;
+	margin: auto;
+}
+
+/* Logo */
+
+#logo{
+	width: 100px;
+	height: 80px;
+	border-style: none;
+	border-width: 1px;
+	background-color: green;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	float: left;
+}
+#logo img{
+	width: 100px;
+	height: 80px;
+}
+/* Sosyal Medya İkonları */
+
+#sosyal{
+	width: 200px;
+	height: 50px;
+	border-style: none;
+	border-width: 1px;
+	background-color: white;
+	float: right;
+	position: relative;
+	top: 40px;
+	right: 25px;
+}
+#sosyal img{
+	width: 50px;
+	height: 45px;
+	position: relative;
+	top: 2px;
+	left: 2px;
+	margin-right: 10px;
+}
+
+/* Ana Menü */
+
+#anamenu{
+	width: 1600px;
+	min-height: 60px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: yellow;
+	margin: auto;
+}
+#anamenu ul{
+	list-style-type: none;
+}
+#anamenu ul li {
+	
+	width: 100px;
+	height: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	float: left;
+	position: relative;
+	top: 20px;
+	left:200px;
+	margin-right: 250px;
+	text-align: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: white;
+}
+#anamenu ul a{
+
+	font-family: Verdana;
+	text-decoration: none;
+}
+#anamenu ul a:hover{
+	font-size: 16px;
+	color: gray;
+}
+#anamenu ul a:active{
+	color: black;
+}
+
+/* İçerik ve Yan Menü CSS Kodları */
+
+#icerik{
+	width: 1200px;
+	min-height: 600px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: seagreen;
+	margin-left: 100px;
+	float: left;
+}
+
+#yanmenu{
+	width: 396px;
+	min-height: 600px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: purple;
+	float: right;
+	margin-right: 100px
+}
+.random_resim{
+	width: 500px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 20px;
+	float: left;
+}
+.metin{
+	text-indent: 25px;
+	font-family: Verdana;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+#yanmenu p{
+	margin-top: 20px;
+}
+#yanmenu h1{
+	margin-top: 30px;
+}
+
+/* Alt Menü */
+#altmenu{
+	width: 1600px;
+	min-height: 100px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: lightblue;
+	margin-left: 100px;
+	float: left;
+}
+#altmenu ul li{
+	list-style-type: none;
+	float:left;
+	margin-left: 250px;
+	margin-top: 30px;
+}
+#altmenu ul a{
+	text-decoration: none;
+	color: black;
+}
+#altmenu ul p{
+	text-align: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+
+#iletisim ul{
+	list-style-type: none;
+}
+#iletisim ul a{
+	text-decoration: none;
+}
+#egitim{
+	font-family: Verdana;
+	margin-top: 20px;
+}
+#sertifikalar li{
+	margin-top: 10px;
+	list-style-type: none;
+}

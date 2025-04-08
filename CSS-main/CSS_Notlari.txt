@@ -1,0 +1,57 @@
+CSS komutları 3 parçadan oluşur .
+       - HTML Komutu (selector)
+       - Özellik (Property)
+       - Değer (Value)
+Örneğin : 
+        -> h1   {color:green ; font-size:20px;} --> h1= HTML komutu , color=Özellik , green=Değer(value)
+CSS kodları yazarken gruplama yöntemi kullanılabilir.
+         -> h1,h2,p {color:black ; font-size : 18px; }
+Yazmak istediğimiz CSS kodunu belli bir id değerine sahip olan HTML komutuna uygulamak istediğimizde : 
+         -> #id_degeri {color:red;}
+Yazmak istediğimiz CSS kodunu belli bir class değerine sahip olan HTML komutuna uygulamak istediğimizde : 
+         -> .class_degeri {color:red;}
+
+CSS kodları 3 farklı yere yazılabilir.
+  - HTML tagının içine (inline)
+  - Sayfanın head bölümüne (internal)
+  - Bir dosyaya (external)
+
+Satır içi (inline) CSS kodları 
+        - <p style = "color : red">Bu paragrafa css kodu uygulanmıştır.</p>
+
+
+Temel Seçici (Selector) Örnekleri 
+
+* - her şey seçilecek
+p - p tagı seçilecek ve tüm p taglarına uygulanacak
+#deger - id'si deger olan taglar seçilecek ve uygulanacak
+.deger - class'ı deger olan tüm taglar seçilecek ve uygulanacak 
+h1.name - class degeri name olan tüm h1 tagları seçilecek ve uygulanacak
+p strong - p tagı içindeki tüm strong taglarına uygulanacak
+nav #button - nav tagı içindeki id'si button olan tüm taglara uygulanacak
+
+Paragraf CSS Özellikleri
+
++ text - indent : (em,px) paragrafın ilk satırının girintili olmasını sağlar
++ text - align  :  (left,right,center,justify) Paragrafın sola, sağa , ortaya veya her iki kenaar yaslanmasını sağlar
++ line - height : (em,px) Paragraftaki satırlar arası mesafeyi ayarlar. 
+
+Metin CSS Özellikleri 
+
++ font-weight : Yazının kalınlığını ayarlamamızı sağlar.
++ font-transform : Metnin harflerinin büyük-küçük-her kelimenin baş harfini büyük-küçük giib mişlemleri yapmamızı sağlar.
++ word-spacing : Kelimeler arasındaki boşluğu belirlememizi sağlar.
++ letter-spacing : Harfler arasındaki boşluğu belirlememizi sağlar.
+
+
+
+
+
+
+
+
+
+
+
+
+
